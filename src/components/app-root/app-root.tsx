@@ -9,7 +9,9 @@ export class AppRoot {
     return (
       <main>
         <header>
-          <h1>Stencil Demo</h1>
+          <h1>
+            Stencil Demo <ion-icon name="heart" size="small" />
+          </h1>
         </header>
 
         <section>

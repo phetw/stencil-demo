@@ -20,8 +20,8 @@ export class AppProfile {
       return (
         <section class="app-profile">
           <p>
-            Hello! My name is {this.normalize(this.match.params.name)}. My name was passed in
-            through a route param!
+            Hello! <ion-icon name="person" size="small" /> My name is
+            {this.normalize(this.match.params.name)}. My name was passed in through a route param!
           </p>
           <button>Hello</button>
         </section>
